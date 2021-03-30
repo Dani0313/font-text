@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../imgs/bg.jpg);
+    font-family: 'Poppins', sans-serif;
+    color: rgba(255, 255, 255, 0.74);
+}
+.main{
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+}
+.main .cim{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+.main .font table{
+    border: 3px rgba(255, 255, 255, 0.747) solid;
+    border-radius: 25px;
+    padding: 10px;
+    margin: auto;
+}
+.main .font table td{
+    margin: 5px;
+    padding: 10px;
+}
+.main .text table{
+    border: 3px rgba(255, 255, 255, 0.747) solid;
+    border-radius: 25px;
+    padding: 10px;
+    margin: auto;
+}
+.main .font table td{
+    margin: 5px;
+    padding: 10px;
+}
+h1{
+    margin: 40px;
+}

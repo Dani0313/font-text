@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
+    <title>Font és text</title>
+</head>
+<body>
+    <div class="main">
+        <h1>Ezek a leggyakrabban használt tulajdonságok.</h1>
+        <div class="font">
+            <h1 class="cim">Font</h1>
+            <br>
+            <table class="fontT">
+                <tr>
+                    <td>font-style</td>
+                    <td>A betű stilusát állitja be. Dőlt, félkövér, normál</td>
+                </tr>
+                <tr>
+                    <td>font-variant</td>
+                    <td>A betűtpius változatát adja meg. Normál, kiskapitális.</td>
+                </tr>
+                <tr>
+                    <td>font-weight</td>
+                    <td>A betűtpius vastagságát adja meg. A vastagság mértéke állitható (500-900).</td>
+                </tr>
+                <tr>
+                    <td>font-size</td>
+                    <td>A betűtpius méretét adja meg, általában px(pixel)-ben.</td>
+                </tr>
+                <tr>
+                    <td>font-family</td>
+                    <td>A betűkészletet adja meg. Vannak alapértelmezettek(Times new roman), viszont újakat is hozzáadhatunk (google fonts)</td>
+                </tr>
+            </table>
+        </div>
+        <div class="text">
+            <h1 class="cim">Text</h1>
+            <br>
+            <table class="textT">
+                <tr>
+                    <td>text-align</td>
+                    <td>A szöveg igazitását adja meg. Bal, közép, jobb, sorkizárt.</td>
+                </tr>
+                <tr>
+                    <td>text-decoration</td>
+                    <td>A szöveg dekorációját adja meg. Aláhúzások.</td>
+                </tr>
+                <tr>
+                    <td>text-transform</td>
+                    <td>Kiskapitális, nagybetüs.</td>
+                </tr>
+            </table>
+            <h2>Megelégedettségi űrlap</h2>
+            <form action="" class="urlap">
+                <label for="fname">Vezetéknév</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Keresztnév</label><br>
+                <input type="text" id="lname" name="lname"><br><br>
+                
+                <p>Sikerült segiteni promblémája megoldásában?</p>
+                <input type="radio" id="yes" name="gender" value="yes">
+                <label for="igen">Igen</label><br>
+                <input type="radio" id="no" name="gender" value="no">
+                <label for="nem">nem</label><br>
+                <p>Mit gondol ay oldal tartalmáról?</p>
+                <input type="radio" id="kieg" name="asd" value="nem">
+                <label for="kieg">Kiegészitendő</label><br>
+                <input type="radio" id="kisHiba" name="asd" value="majdnem">
+                <label for="hibas">Kisebb hibák</label><br>
+                <input type="radio" id="other" name="asd" value="ok">
+                <label for="other">Megfelel</label><br>
+                <input type="submit" value="Küldés">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
